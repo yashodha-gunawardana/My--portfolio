@@ -15,3 +15,9 @@ body {
     overflow: hidden;
     background: linear-gradient(to right,rgb(255,255,255),rgb(254,215,173));
 }
+
+header>nav {
+    width: 10vw;
+    height: 10vh;
+    position: sticky;
+}
