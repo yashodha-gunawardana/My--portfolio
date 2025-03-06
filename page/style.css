@@ -40,3 +40,13 @@ header>nav {
     color: rgb(109,67,0);
     text-shadow: 0 0 10px rgb(109,67,0);
 }
+
+.hamburg,.cancel {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: black;
+    font-size: 2rem;
+    display: none;
+}
