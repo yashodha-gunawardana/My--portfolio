@@ -29,3 +29,14 @@ header>nav {
     justify-content: space-around;
     align-items: center;
 }
+
+.logo {
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.logo>span {
+    color: rgb(109,67,0);
+    text-shadow: 0 0 10px rgb(109,67,0);
+}
