@@ -65,3 +65,14 @@ header>nav {
     font-weight: 500;
     transition: width 0.3s linear;
 }
+
+.nav-menu>a::before {
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(109,67,0);
+    transition: 0.2s linear;
+}
