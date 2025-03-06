@@ -80,3 +80,8 @@ header>nav {
 .nav-menu>a:hover::before {
     width: 100%;
 }
+
+.nav-menu>a:hover {
+    color: rgb(109,67,0);
+}
+
