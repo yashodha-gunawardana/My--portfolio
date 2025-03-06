@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <link rel="stylesheet" href="../assets/lib/normalize.css">
     <link rel="stylesheet" href="../assets/lib/fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -15,26 +16,41 @@
 
     <!-- Header Section -->
     <header>
-        <img src="../assets/images/my-logo.png" width="50" alt="Profile picture of Yashoda Gunawardhana">
-        <h3>YASHODA GUNAWARDHANA</h3>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="container">
+                <div class="logo">
+                    <span>YASHODA GUNAWARDHAN</span>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars hamburg"></i>
+            </div>
+            <div class="dropdown">
+                <div>
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                    <i class="fa-solid fa-xmark cancel"></i>
+                </div>
+            </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section id="hero">
         <h2>Hello, I'm <br> Yashoda Gunawardhana</h2>
-        <h3>a Full-Stack Developer</h3>
+        <div class="typewriter">a<span></span></div>
         <img src="../assets/images/profile-pic.jpg" width="300" alt="Profile picture of Yashoda Gunawardhana">
         <p>Resolving design problems, building smart user interfaces and useful interactions,
             developing rich web applications and seamless web experiences.</p>
-        <div>
+        <div class="social icons">
             <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
             <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
             <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
@@ -228,7 +244,7 @@
     </div>
     <div>
         <h3>SOCIAL</h3>
-        <div>
+        <div class="social icons">
             <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
             <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
             <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
