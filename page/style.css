@@ -4,3 +4,14 @@
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
 }
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to right,rgb(255,255,255),rgb(254,215,173));
+}
