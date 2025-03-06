@@ -50,3 +50,9 @@ header>nav {
     font-size: 2rem;
     display: none;
 }
+
+div>ul {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
