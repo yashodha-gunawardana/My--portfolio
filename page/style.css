@@ -237,3 +237,18 @@ header nav {
 .social-icons a {
     text-decoration: none;
 }
+
+.social-icons i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.2rem solid rgb(109,67,0);
+    border-radius: 50%;
+    color: rgb(109,67,0);
+    margin: 5px 10px;
+    font-size: 1.5rem;
+    transition: 0.2s linear;
+}
