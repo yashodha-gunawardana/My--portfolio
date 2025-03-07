@@ -164,3 +164,12 @@ header nav {
     width: 40%;
     min-height: 100px;
 }
+
+.content h1 {
+    font-size: 35px;
+}
+
+.content h1 span {
+
+    font-size: clamp(1rem,2rem + 5vw,3rem);
+}
