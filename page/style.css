@@ -127,3 +127,14 @@ header nav {
     transform: translateY(0);
     display: block;
 }
+
+/* Hero Section Styles */
+#hero {
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    padding: 0 20px;
+    background: linear-gradient(to right,rgb(255,255,255),rgb(254,215,173));
+    position: relative;
+    overflow: hidden;
+}
