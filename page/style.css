@@ -170,6 +170,7 @@ header nav {
 }
 
 .content h1 span {
-
+    color: rgb(109,67,0);
+    text-shadow: 0 0 10px rgb(109,67,0);
     font-size: clamp(1rem,2rem + 5vw,3rem);
 }
