@@ -252,3 +252,10 @@ header nav {
     font-size: 1.5rem;
     transition: 0.2s linear;
 }
+
+.social-icons i:hover {
+    scale: 1.3;
+    color: white;
+    background-color: rgb(109,67,0);
+    filter: drop-shadow(0 0 10px rgb(109,67,0));
+}
