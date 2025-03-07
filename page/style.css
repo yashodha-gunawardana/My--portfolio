@@ -174,3 +174,14 @@ header nav {
     text-shadow: 0 0 10px rgb(109,67,0);
     font-size: clamp(1rem,2rem + 5vw,3rem);
 }
+
+.content .typewriter {
+    font-weight: 600;
+    font-size: clamp(1rem,1rem + 5vw,2rem);
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0 solid #b74b4b;
+    animation: blink-caret 0.1s infinite;
+}
