@@ -147,3 +147,8 @@ header nav {
     align-items: center;
     flex-direction: row-reverse;
 }
+
+.main-contain>image {
+    z-index: -1;
+
+}
