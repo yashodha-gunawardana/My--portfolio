@@ -28,7 +28,7 @@
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
                 </div>
-                <i class="fa-solid fa-bars hamburg"></i>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
             </div>
             <div class="dropdown">
                 <div>
@@ -36,7 +36,7 @@
                     <a href="#about">About</a>
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
-                    <i class="fa-solid fa-xmark cancel"></i>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancelDropdown()"></i>
                 </div>
             </div>
         </nav>
@@ -44,18 +44,29 @@
 
     <!-- Hero Section -->
     <section id="hero">
-        <h2>Hello, I'm <br> Yashoda Gunawardhana</h2>
-        <div class="typewriter">a<span></span></div>
-        <img src="../assets/images/profile-pic.jpg" width="300" alt="Profile picture of Yashoda Gunawardhana">
-        <p>Resolving design problems, building smart user interfaces and useful interactions,
-            developing rich web applications and seamless web experiences.</p>
-        <div class="social icons">
-            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-            <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <div class="main-contain">
+            <div class="image">
+                <img src="../assets/images/profile-pic.jpg" width="300" alt="Profile picture of Yashoda Gunawardhana">
+            </div>
+            <div class="content">
+                <h1>Hello, I'm <br>
+                    <span>Yashoda Gunawardhana</span></h1>
+                <div class="typewriter"> <span></span></div>
+                <p>Resolving design problems, building smart user interfaces and useful interactions,
+                developing rich web applications and seamless web experiences.</p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+                <div class="btn">
+                <button type="button" onclick="location.href='#contact'">Contact Me</button>
+                </div>
+            </div>
         </div>
-        <button type="button" onclick="location.href='#contact'">Contact Me</button>
     </section>
 
     <!-- About Me Section -->
@@ -243,11 +254,11 @@
     </div>
     <div>
         <h3>SOCIAL</h3>
-        <div class="social icons">
-            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-            <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </div>
     <div>
@@ -264,6 +275,19 @@
     </div>
     <p><i class="fa-solid fa-copyright"></i> Yashoda Gunawardhana | 2025 All Rights Reserved.</p>
 </footer>
+
+<script>
+    function hamburg() {
+        const navbar = document.querySelector(".dropdown");
+        navbar.classList.toggle("active");
+    }
+
+    function cancelDropdown() {
+        const navbar = document.querySelector(".dropdown");
+        navbar.classList.remove("active");
+    }
+</script>
+
 
 </body>
 </html>
