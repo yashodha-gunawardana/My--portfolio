@@ -158,3 +158,9 @@ header nav {
     max-width: 300px;
     border-radius: 10px;
 }
+
+.main-contain .content {
+    color: black;
+    width: 40%;
+    min-height: 100px;
+}
