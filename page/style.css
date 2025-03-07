@@ -273,3 +273,12 @@ header nav {
     border-radius: 50px;
     transition: 0.2s linear;
 }
+
+.content button:hover {
+    scale: 1.1;
+    color: rgb(109,67,0);
+    border: 2px solid rgb(109,67,0);
+    background-color: transparent;
+    font-weight: 700;
+    box-shadow: 0 0 40px rgb(109,67,0);
+}
