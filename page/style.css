@@ -121,3 +121,9 @@ header nav {
 .dropdown div a:hover {
     background-color: rgb(109, 67, 0);
 }
+
+.dropdown div a.active {
+    color: rgb(170,110,20);
+    transform: translateY(0);
+    display: block;
+}
