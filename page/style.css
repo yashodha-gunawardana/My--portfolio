@@ -227,3 +227,13 @@ header nav {
     font-size: clamp(0.4rem,0.2rem + 9vw,1rem);
     margin: 10px 0;
 }
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
