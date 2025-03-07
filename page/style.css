@@ -194,3 +194,13 @@ header nav {
     vertical-align: middle;
     display: inline-block;
 }
+
+.typewriter span::before {
+    content: "Full-stack Developer";
+    display: inline-block;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+    animation: typing 3s steps(200, end) infinite;
+}
