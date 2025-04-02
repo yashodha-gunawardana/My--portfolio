@@ -881,6 +881,14 @@ header nav {
     padding: 50px 100px;
 }
 
+.assignments-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    scroll-behavior: smooth;
+    padding: 20px;
+}
+
 
 
 
