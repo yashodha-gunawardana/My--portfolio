@@ -332,6 +332,18 @@ header nav {
     top: 35px;
 }
 
+.about-contain {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    /*padding: 0 200px;*/
+}
+
+
 
 
 
