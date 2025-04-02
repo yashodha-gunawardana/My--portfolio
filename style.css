@@ -316,11 +316,22 @@ header nav {
 }
 
 .heading-a {
-    display: flex;
-    justify-content: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
     position: relative;
     left: 40px;
 }
+
+.heading-a span {
+    color: gray;
+    font-size: 0.8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    top: 35px;
+}
+
 
 
 
