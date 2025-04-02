@@ -1079,4 +1079,13 @@ header nav {
     top: 20px;
 }
 
+.contact-form .input-box input {
+    width: 100%;
+    color: black;
+    background-color: lightgrey;
+    margin-bottom: .8rem;
+    border: none;
+    border-radius: 5px;
+    padding: .7rem;
+}
 
