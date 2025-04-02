@@ -1129,3 +1129,14 @@ header nav {
     font-weight: 700;
     box-shadow: 0 0 10px gold;
 }
+
+
+/* -----------------Footer Section---------------- */
+footer {
+    background-color: #2D2D2D;
+    color: #F9F5F0;
+    padding: 60px 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
