@@ -1176,3 +1176,9 @@ footer {
     position: relative;
     right: 90px;
 }
+
+.social-icon {
+    margin-top: 10px;
+    position: relative;
+    top: 20px;
+}
