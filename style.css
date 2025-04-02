@@ -845,6 +845,34 @@ header nav {
     margin-top: 0.5rem;
 }
 
+.assign-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.assign-heading span {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.assignment-heading {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.assignment-heading span {
+    font-size: 50px;
+    color: gold;
+}
+
 
 
 
