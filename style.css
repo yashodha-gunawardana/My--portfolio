@@ -1038,6 +1038,16 @@ header nav {
     text-align: center;
 }
 
+.contact-form .main-text span {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    top: 30px;
+}
+
 
 
 
