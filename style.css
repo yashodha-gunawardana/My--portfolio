@@ -706,6 +706,21 @@ header nav {
     bottom: 25px;
 }
 
+.heading4 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading4 span {
+    font-size: 50px;
+    color: gold;
+}
+
 
 
 
