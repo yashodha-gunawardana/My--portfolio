@@ -503,6 +503,16 @@ header nav {
     transform: translateY(-10px);
 }
 
+.skills-container img {
+    width: 60px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skills-container img:hover {
+    transform: scale(1.1);
+}
+
 
 
 
