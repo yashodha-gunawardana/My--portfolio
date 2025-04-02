@@ -1121,3 +1121,11 @@ header nav {
     transition: 0.2s linear;
     background-color: transparent;
 }
+
+.btn-box input:hover {
+    scale: 1.1;
+    color: black;
+    background-color: gold;
+    font-weight: 700;
+    box-shadow: 0 0 10px gold;
+}
