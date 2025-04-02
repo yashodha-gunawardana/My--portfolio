@@ -1153,3 +1153,11 @@ footer {
     color: #ffffff;
     font-weight: bold;
 }
+
+.footer-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.8;
+    position: relative;
+    top: 20px;
+}
