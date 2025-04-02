@@ -1048,7 +1048,15 @@ header nav {
     top: 30px;
 }
 
+.contact-form h1 {
+    font-size: 50px;
+    color: black;
+}
 
+.contact-form h1 span {
+    color: gold;
+    font-size: 50px;
+}
 
 
 
