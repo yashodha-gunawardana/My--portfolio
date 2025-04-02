@@ -367,6 +367,13 @@ header nav {
     line-height: 1.2;
 }
 
+.link-sections {
+    display: flex;
+    gap: 3rem;
+    justify-content: left;
+    margin: 35px 0;
+}
+
 
 
 
