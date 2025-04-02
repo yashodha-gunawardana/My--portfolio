@@ -998,6 +998,14 @@ header nav {
     width: 400px;
 }
 
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
 
 
 
