@@ -1161,3 +1161,9 @@ footer {
     position: relative;
     top: 20px;
 }
+
+.social-section {
+    text-align: right;
+    flex: 1;
+    max-width: 50%;
+}
