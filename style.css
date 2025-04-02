@@ -288,6 +288,18 @@ header nav {
 }
 
 
+/* -----------------About Section---------------- */
+#about {
+    width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    background: black;
+    padding: 0 100px;
+    position: relative;
+}
 
 
 
