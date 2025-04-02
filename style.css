@@ -651,6 +651,25 @@ header nav {
     box-shadow: 0 0 25px gray;
 }
 
+.timeline-image img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+}
+
+.timeline-item:nth-child(odd) .timeline-image img {
+    right: calc(15% + 0px);
+    left: auto;
+}
+
+.timeline-item:nth-child(even) .timeline-image img {
+    left: calc(15% + 0px);
+    right: auto;
+}
+
 
 
 
