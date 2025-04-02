@@ -1107,3 +1107,17 @@ header nav {
     position: relative;
     top: 50px;
 }
+
+.btn-box input {
+    width: 25%;
+    height: 5vh;
+    margin: 10px;
+    color: black;
+    border: 2px solid black;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: 0.2s linear;
+    background-color: transparent;
+}
