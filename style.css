@@ -623,6 +623,18 @@ header nav {
     top: 10%;
 }
 
+.timeline-date {
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    margin: 6px 0 15px;
+}
+
+.timeline-item:nth-child(even) .timeline-date {
+    padding-left: calc(0% + 0px);
+    text-align: left;
+}
+
 
 
 
