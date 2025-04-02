@@ -741,6 +741,32 @@ header nav {
     gap: 2rem;
 }
 
+.project {
+    min-height: 400px;
+    max-width: 350px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 2rem;
+    margin: 0 2rem;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+
+.project:hover {
+    border: 1px solid gray;
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 0 20px gray;
+    background-color: #ffb400;
+}
+
 
 
 
