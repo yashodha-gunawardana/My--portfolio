@@ -1194,3 +1194,10 @@ footer {
 .social-icon a:hover {
     color: #FFD700;
 }
+
+.footer-divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 215, 0, 0.4);
+    margin: 40px 0;
+}
