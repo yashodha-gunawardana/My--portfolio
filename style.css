@@ -735,6 +735,12 @@ header nav {
     margin-top: 0.5rem;
 }
 
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
 
 
 
