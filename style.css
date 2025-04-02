@@ -315,6 +315,14 @@ header nav {
     margin-top: 0.5rem;
 }
 
+.heading-a {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 40px;
+}
+
+
 
 
 
