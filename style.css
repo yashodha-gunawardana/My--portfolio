@@ -384,6 +384,18 @@ header nav {
     transition: width 0.3s ease;
 }
 
+.link-sec a::before {
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: gold;
+    transition: 0.2s linear;
+}
+
+
 
 
 
