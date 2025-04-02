@@ -548,6 +548,19 @@ header nav {
     margin-top: 0.5rem;
 }
 
+.heading-e {
+    display: flex;
+    justify-content: center;
+}
+
+.heading-e span {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 
 
 
