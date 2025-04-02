@@ -395,6 +395,10 @@ header nav {
     transition: 0.2s linear;
 }
 
+.link-sec a:hover::before {
+    width: 100%;
+}
+
 
 
 
