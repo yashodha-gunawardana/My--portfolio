@@ -1190,3 +1190,7 @@ footer {
     transition: color 0.3s ease-in-out;
     text-decoration: none;
 }
+
+.social-icon a:hover {
+    color: #FFD700;
+}
