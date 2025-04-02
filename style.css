@@ -476,6 +476,14 @@ header nav {
     text-shadow: 0 0 10px gray;
 }
 
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: nowrap;
+}
+
 
 
 
