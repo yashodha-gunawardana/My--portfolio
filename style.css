@@ -821,6 +821,16 @@ header nav {
 }
 
 
+/* -----------------Assignments Section---------------- */
+#assignments {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    padding: 100px 15px;
+}
+
 
 
 
