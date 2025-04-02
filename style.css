@@ -1064,4 +1064,11 @@ header nav {
     font-weight: 300;
 }
 
+.contact-form form {
+    text-align: center;
+    max-width: 50rem;
+    width: 100%;
+    margin: 1rem auto;
+}
+
 
