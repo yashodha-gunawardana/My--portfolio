@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/lib/normalize.css">
+    <link rel="stylesheet" href="../assets/lib/fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- Main Root -->
+<main>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <span>YASH</span>ODA
+                </div>
+                <div class="nav-menu">
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            </div>
+            <div class="dropdown">
+                <div>
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancelDropdown()"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="main-contain">
+            <div class="image">
+                <img src="../assets/images/profile.jpg" width="500" alt="Profile picture of Yashoda Gunawardhana">
+            </div>
+            <div class="content">
+                <h1>Hello, I'm <br>
+                    <span>Yashoda Gunawardhana</span></h1>
+                <div class="typewriter"> <span></span></div>
+                <p>Resolving design problems, building smart user interfaces and useful interactions,
+                    developing rich web applications and seamless web experiences.</p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+                <div class="btn">
+                    <button type="button" onclick="location.href='#contact'">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <a href="#about" class="arrow"><i class="fa-solid fa-angles-down"></i></a>
+        <div class="about-contain">
+            <!--            <div class="about-image">-->
+            <!--                <img src="../assets/images/profile.jpg" width="400" alt="Picture of Yashoda Gunawardhana">-->
+            <!--            </div>-->
+
+            <div class="about-text">
+                <div class="heading-a">
+                    <span>get to know me</span>
+                </div>
+                <h1>About<span>Me</span></h1>
+                <p>Hello! I'm Yashoda Gunawardhana, a 23-year-old passionate learner currently engaged in
+                    higher education. I'm pursuing my studies in Software Engineering at IJSE Institute,
+                    where I continuously expand my knowledge and skills in the field of technology.
+                    I have a keen interest in solving problems, building smart user interfaces, and developing
+                    efficient software solutions. My journey in software engineering is driven by curiosity
+                    and a commitment to innovation. I am always excited to learn new technologies and take on
+                    challenges that help me grow both personally and professionally.</p>
+
+                <div class="link-sections">
+                    <div class="link-sec">
+                        <a href="#education">Education</a>
+                        <a href="#assignments">Assignments</a>
+                        <a href="#gallery">Gallery</a>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button type="button" onclick="location.href='#contact'">Contact</button>
+                    <button type="button" onclick="location.href='resume.pdf'">Resume</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Skills Section -->
+    <section id="my-skills">
+        <div class="heading2">
+            <span>My</span>Skills
+        </div>
+        <div class="skills-container">
+            <figure>
+                <img src="../assets/images/java.png" width="80" alt="Java">
+                <figcaption>Java</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../assets/images/figma.png" width="80" alt="Figma">
+                <figcaption>Figma</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../assets/images/html.png" width="80" alt="HTML">
+                <figcaption>HTML</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../assets/images/mysql.png" width="80" alt="MySQL">
+                <figcaption>MySQL</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../assets/images/css.png" width="80" alt="CSS">
+                <figcaption>CSS</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../assets/images/intellij.png" width="80" alt="IntelliJ">
+                <figcaption>IntelliJ</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../assets/images/github.png" width="80" alt="GitHub">
+                <figcaption>GitHub</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../assets/images/react.png" width="80" alt="React">
+                <figcaption>React</figcaption>
+            </figure>
+
+            <figure>
+                <img src="../assets/images/javascript.png" width="80" alt="JavaScript">
+                <figcaption>JavaScript</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <a href="#education" class="arrow"><i class="fa-solid fa-angles-down"></i></a>
+        <div class="heading-e">
+            <span>my learning journey</span>
+        </div>
+
+        <div class="heading">
+            <span>Edu</span>cation
+        </div>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2008 - 2021</div>
+                <div class="timeline-content">
+                    <h3>R/Vidyakara Maha Vidyalaya</h3>
+                    <p>Finished Both O/L & A/L exams</p>
+                </div>
+                <div class="timeline-image">
+                    <img src="../assets/images/school-logo.png" width="250" alt="R/Vidyakara Maha Vidyalaya Logo">
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3>Esoft Metro Campus</h3>
+                    <p>Diploma in ICT & English</p>
+                </div>
+
+                <div class="timeline-image">
+                    <img src="../assets/images/esoft-logo.jpeg" width="250" alt="Esoft Logo">
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024 - present</div>
+                <div class="timeline-content">
+                    <h3>Institute Of Software Engineering</h3>
+                    <p>Degree in Computer Science</p>
+                </div>
+
+                <div class="timeline-image">
+                    <img src="../assets/images/ijse-logo.jpeg" width="350" alt="IJSE Logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <a href="#assignments" class="arrow"><i class="fa-solid fa-angles-down"></i></a>
+        <div class="project-box">
+            <div class="heading-p">
+                <span>browse my recent</span>
+            </div>
+            <div class="heading4">
+                <span>My</span> Projects
+            </div>
+
+            <div class="project-container">
+                <div class="project">
+                    <h3>Stock Management System</h3>
+                    <img src="../assets/images/cli_interface.png" alt="Stock Management System CLI">
+                    <p>Developed a Stock Management System using <span>Java language </span>with a <span>Command Line Interface (CLI). </span>
+                        This system efficiently manages item imports, stock tracking, and supplier details, ensuring accurate inventory control for The Pigeon Service.</p>
+                    <div class="header-action-aria">
+                        <a href="" class="button-g">GitHub<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h3>TicTacToe Game</h3>
+                    <img src="../assets/images/tictactoe.png" alt="Tic Tac Toe Game">
+                    <p>Developed a Tic-Tac-Toe game using <span>Java and JavaFx. </span> The game features an interactive UI and includes a simple AI opponent implemented with the Minimax algorithm for an enhanced player experience.</p>
+                    <div class="header-action-aria">
+                        <a href="" class="button-g">GitHub<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <h3>Footwear Management System</h3>
+                    <img src="../assets/images/footwear.png" alt="Footwear Management System">
+                    <p>Developed the ELITE Footwear Management System using <span>Java, JavaFx, and Jasper Reports. </span> The system follows MVC and Layered architecture, managing inventory, suppliers, employees, production, orders, and payments while generating detailed reports.</p>
+                    <div class="header-action-aria">
+                        <a href="" class="button-g">GitHub<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Assignments Section -->
+    <section id="assignments">
+        <a href="#gallery" class="arrow"><i class="fa-solid fa-angles-down"></i></a>
+        <div class="assign-heading">
+            <span>a step towards my goals</span>
+        </div>
+        <div class="assignment-heading">
+            <span>Assig</span>nments
+        </div>
+
+        <div class="assignments-container">
+            <button type="button" aria-label="Previous Assignment" class="nav-button previous-button">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <div class="assignments-carousel">
+                <div class="assignments-card">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <h3>Assignment 01</h3>
+                    <p>Description</p>
+                </div>
+                <div class="assignments-card">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <h3>Assignment 02</h3>
+                    <p>Description</p>
+                </div>
+                <div class="assignments-card">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <h3>Assignment 03</h3>
+                    <p>Description</p>
+                </div>
+                <div class="assignments-card">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <h3>Assignment 04</h3>
+                    <p>Description</p>
+                </div>
+                <div class="assignments-card">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <h3>Assignment 05</h3>
+                    <p>Description</p>
+                </div>
+                <div class="assignments-card">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <h3>Assignment 06</h3>
+                    <p>Description</p>
+                </div>
+                <div class="assignments-card">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <h3>Assignment 07</h3>
+                    <p>Description</p>
+                </div>
+                <div class="assignments-card">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <h3>Assignment 08</h3>
+                    <p>Description</p>
+                </div>
+                <div class="assignments-card">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <h3>Assignment 09</h3>
+                    <p>Description</p>
+                </div>
+                <div class="assignments-card">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <h3>Assignment 10</h3>
+                    <p>Description</p>
+                </div>
+                <div class="assignments-card">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <h3>Assignment 11</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+
+            <button type="button" aria-label="Next Assignment" class="nav-button next-button">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <a href="#gallery" class="arrow"><i class="fa-solid fa-angles-down"></i></a>
+        <div class="heading-g">
+            <span>throwback memories</span>
+        </div>
+
+        <div class="gallery-heading">
+            <h1>Galle<span>ry</span></h1>
+        </div>
+
+        <div class="gallery-box">
+            <div class="left-side">
+                <img src="../assets/images/image1.jpg" width="200" alt="Gallery Image 1">
+                <img src="../assets/images/image2.jpg" width="200" alt="Gallery Image 2">
+            </div>
+
+            <div class="middle">
+                <img src="../assets/images/image3.jpeg" width="400" alt="Gallery Image 3">
+            </div>
+
+            <div class="right-side">
+                <img src="../assets/images/image4.jpeg" width="200" alt="Gallery Image 4">
+                <img src="../assets/images/image5.jpg" width="200" alt="Gallery Image 5">
+                <img src="../assets/images/image6.jpeg" width="200" alt="Gallery Image 6">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-form">
+            <div class="main-text">
+                <span>ask me questions</span>
+            </div>
+            <h1>Contact <span>Me</span></h1>
+            <p>Feel free to contact me by submitting the form below and I will get back to you as soon as possible.</p>
+
+            <form action="#" method="post">
+                <div class="input-box">
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                    <input type="text" id="subject" name="subject" placeholder="Your subject" required>
+                    <textarea id="message" name="message" cols="15" rows="10" placeholder="Your message" required></textarea>
+                </div>
+
+                <div class="btn-box">
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-details">
+        <h3>YASHODA GUNAWARDHANA</h3>
+        <p>A frontend-focused Web Developer building the Frontend of Websites and <br> Web Applications that leads to the success of the overall product.</p>
+    </div>
+    <div class="social-section">
+        <h3>SOCIAL</h3>
+        <div class="social-icon">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <p class="copyright"><i class="fa-solid fa-copyright"></i> Yashoda Gunawardhana | 2025 All Rights Reserved.</p>
+</footer>
+
+<script>
+    function hamburg() {
+        const navbar = document.querySelector(".dropdown");
+        navbar.classList.toggle("active");
+    }
+
+    function cancelDropdown() {
+        const navbar = document.querySelector(".dropdown");
+        navbar.classList.remove("active");
+    }
+</script>
+
+
+</body>
+</html>
