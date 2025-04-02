@@ -513,6 +513,13 @@ header nav {
     transform: scale(1.1);
 }
 
+.skills-container figcaption {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
 
 
 
