@@ -906,6 +906,17 @@ header nav {
     margin-bottom: 10px;
 }
 
+.assignments-card h3 {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.assignments-card p {
+    font-size: 1rem;
+    color: black;
+}
+
 
 
 
