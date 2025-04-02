@@ -938,6 +938,14 @@ header nav {
     color: white;
 }
 
+/* -----------------Gallery Section---------------- */
+#gallery {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    padding: 0 20px;
+    text-align: center;
+}
 
 
 
