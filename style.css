@@ -403,6 +403,10 @@ header nav {
     color: #FFD700;
 }
 
+.link-sec a:active {
+    color: gray;
+}
+
 
 
 
