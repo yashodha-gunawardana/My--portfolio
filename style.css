@@ -947,6 +947,20 @@ header nav {
     text-align: center;
 }
 
+.heading-g {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+.heading-g span {
+    color: gray;
+    font-size: 0.8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 
 
 
