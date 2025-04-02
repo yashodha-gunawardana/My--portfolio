@@ -1167,3 +1167,12 @@ footer {
     flex: 1;
     max-width: 50%;
 }
+
+.social-section h3 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: relative;
+    right: 90px;
+}
