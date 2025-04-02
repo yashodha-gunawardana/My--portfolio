@@ -671,6 +671,15 @@ header nav {
 }
 
 
+/* -----------------Project Section---------------- */
+#projects {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 100px 15px;
+    background-color: rgba(206, 212, 218, 0.53);
+    text-align: center;
+    position: relative;
+}
 
 
 
