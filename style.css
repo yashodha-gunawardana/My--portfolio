@@ -427,6 +427,14 @@ header nav {
     transition: 0.2s linear;
 }
 
+.buttons button:hover {
+    scale: 1.1;
+    color: black;
+    background-color: gold;
+    font-weight: 700;
+    box-shadow: 0 0 40px gray;
+}
+
 
 
 
