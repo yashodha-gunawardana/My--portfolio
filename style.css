@@ -399,6 +399,10 @@ header nav {
     width: 100%;
 }
 
+.link-sec a:hover {
+    color: #FFD700;
+}
+
 
 
 
