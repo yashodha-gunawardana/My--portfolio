@@ -691,6 +691,21 @@ header nav {
     top: 20px;
 }
 
+.heading-p {
+    display: flex;
+    justify-content: center;
+}
+
+.heading-p span {
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 25px;
+}
+
 
 
 
