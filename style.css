@@ -1016,6 +1016,10 @@ header nav {
     gap: 20px;
 }
 
+.gallery-box img {
+    filter: grayscale(100%); /* Convert images to black and white*/
+    transition: filter 0.3s ease;
+}
 
 
 
