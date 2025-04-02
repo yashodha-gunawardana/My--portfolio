@@ -1010,6 +1010,15 @@ header nav {
     justify-content: center;
 }
 
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
 
 
 
