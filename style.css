@@ -1021,6 +1021,9 @@ header nav {
     transition: filter 0.3s ease;
 }
 
+.gallery-box img:hover {
+    filter: grayscale(0%); /* Restore original colors on hover*/
+}
 
 
 
