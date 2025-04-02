@@ -301,7 +301,7 @@ header nav {
     position: relative;
 }
 
-.arrow {
+/*.arrow {
     position: absolute;
     bottom: 50px;
     right: 40px;
@@ -313,7 +313,7 @@ header nav {
 
 .arrow:hover {
     margin-top: 0.5rem;
-}
+} */
 
 .heading-a {
     /*display: flex;*/
@@ -449,7 +449,7 @@ header nav {
 
 .arrow {
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     right: 40px;
     transform: translateX(-50%);
     font-size: 24px;
@@ -521,6 +521,18 @@ header nav {
 }
 
 
+/* -----------------Education Section---------------- */
+#education {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 100px 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
 
 
 
