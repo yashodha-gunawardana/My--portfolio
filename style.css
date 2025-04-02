@@ -1004,7 +1004,11 @@ header nav {
     gap: 20px;
 }
 
-
+.middle {
+    /*flex: 1;*/
+    display: flex;
+    justify-content: center;
+}
 
 
 
