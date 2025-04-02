@@ -789,6 +789,14 @@ header nav {
     font-weight: 300;
 }
 
+.project:hover h3 {
+    color: white;
+}
+
+.project:hover p {
+    color: white;
+}
+
 
 
 
