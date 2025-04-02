@@ -343,6 +343,12 @@ header nav {
     /*padding: 0 200px;*/
 }
 
+.about-contain .about-text {
+    color: white;
+    padding: 0 100px;
+    text-align: left;
+}
+
 
 
 
