@@ -360,6 +360,13 @@ header nav {
     font-size: 50px;
 }
 
+.about-text p {
+    color: white;
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.2;
+}
+
 
 
 
