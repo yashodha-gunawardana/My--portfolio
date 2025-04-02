@@ -987,6 +987,17 @@ header nav {
     gap: 20px;
 }
 
+.left-side img,
+.right-side img {
+    width: 200px;
+    position: relative;
+    top: 20px;
+}
+
+.middle img {
+    width: 400px;
+}
+
 
 
 
