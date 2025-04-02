@@ -561,6 +561,19 @@ header nav {
     text-transform: uppercase;
 }
 
+.heading {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heading span {
+    font-size: 50px;
+    color: gold;
+}
+
 
 
 
