@@ -574,6 +574,24 @@ header nav {
     color: gold;
 }
 
+.timeline-items {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.timeline-items::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    top: 0;
+    bottom: 0;
+    background-color: gold;
+    left: calc(50% - 1px);
+}
+
 
 
 
