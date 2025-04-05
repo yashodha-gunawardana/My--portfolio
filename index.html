@@ -71,7 +71,7 @@
 
     <!-- About Me Section -->
     <section id="about">
-        <a href="#about" class="arrow"><i class="fa-solid fa-angles-down"></i></a>
+<!--        <a href="#education" class="arrow"><i class="fa-solid fa-angles-down"></i></a>-->
         <div class="about-contain">
 <!--            <div class="about-image">-->
 <!--                <img src="../assets/images/profile.jpg" width="400" alt="Picture of Yashoda Gunawardhana">-->
@@ -109,59 +109,60 @@
     <!-- My Skills Section -->
     <section id="my-skills">
         <div class="heading2">
-            <span>My</span>Skills
+            <span>My </span>Skills
         </div>
+
             <div class="skills-container">
-                <figure>
-                     <img src="assets/images/java.png" width="80" alt="Java">
-                     <figcaption>Java</figcaption>
-                     </figure>
+                <div class="skill-card">
+                    <img src="assets/images/java.png" width="80" alt="Java">
+                    <p>Java</p>
+                </div>
 
-                <figure>
+                <div class="skill-card">
                     <img src="assets/images/figma.png" width="80" alt="Figma">
-                    <figcaption>Figma</figcaption>
-                </figure>
+                    <p>Figma</p>
+                </div>
 
-                <figure>
+                <div class="skill-card">
                     <img src="assets/images/html.png" width="80" alt="HTML">
-                    <figcaption>HTML</figcaption>
-                </figure>
+                    <p>HTML</p>
+                </div>
 
-                <figure>
+                <div class="skill-card">
                     <img src="assets/images/mysql.png" width="80" alt="MySQL">
-                    <figcaption>MySQL</figcaption>
-                </figure>
+                    <p>MySQL</p>
+                </div>
 
-                <figure>
+                <div class="skill-card">
                     <img src="assets/images/css.png" width="80" alt="CSS">
-                    <figcaption>CSS</figcaption>
-                </figure>
+                    <p>CSS</p>
+                </div>
 
-                <figure>
+                <div class="skill-card">
                     <img src="assets/images/intellij.png" width="80" alt="IntelliJ">
-                    <figcaption>IntelliJ</figcaption>
-                </figure>
+                    <p>Intellij</p>
+                </div>
 
-                <figure>
-                    <img src="assets/images/github.png" width="80" alt="GitHub">
-                    <figcaption>GitHub</figcaption>
-                </figure>
+                <div class="skill-card">
+                     <img src="assets/images/github.png" width="80" alt="GitHub">
+                     <p>GitHub</p>
+                </div>
 
-                <figure>
+                <div class="skill-card">
                     <img src="assets/images/react.png" width="80" alt="React">
-                    <figcaption>React</figcaption>
-                </figure>
+                    <p>React</p>
+                </div>
 
-                <figure>
+                <div class="skill-card">
                     <img src="assets/images/javascript.png" width="80" alt="JavaScript">
-                    <figcaption>JavaScript</figcaption>
-                </figure>
+                    <p>JavaScript</p>
+                </div>
             </div>
     </section>
 
     <!-- Education Section -->
     <section id="education">
-        <a href="#education" class="arrow"><i class="fa-solid fa-angles-down"></i></a>
+<!--        <a href="#education" class="arrow"><i class="fa-solid fa-angles-down"></i></a>-->
         <div class="heading-e">
             <span>my learning journey</span>
         </div>
@@ -175,38 +176,36 @@
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2008 - 2021</div>
-                    <div class="timeline-content">
+                    <div class="timeline-content" onclick="toggleImage(this)">
                         <h3>R/Vidyakara Maha Vidyalaya</h3>
                         <p>Finished Both O/L & A/L exams</p>
-                    </div>
-                    <div class="timeline-image">
-                        <img src="assets/images/school-logo.png" width="250" alt="R/Vidyakara Maha Vidyalaya Logo">
+                        <div class="timeline-image-container">
+                            <img src="assets/images/school-logo.png" width="250" alt="R/Vidyakara Maha Vidyalaya Logo">
+                        </div>
                     </div>
             </div>
 
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2022</div>
-                    <div class="timeline-content">
+                    <div class="timeline-content" onclick="toggleImage(this)">
                         <h3>Esoft Metro Campus</h3>
                         <p>Diploma in ICT & English</p>
-                    </div>
-
-                    <div class="timeline-image">
-                        <img src="assets/images/esoft-logo.jpeg" width="250" alt="Esoft Logo">
+                        <div class="timeline-image-container">
+                            <img src="assets/images/esoft-logo.jpeg" width="250" alt="Esoft Logo">
+                        </div>
                     </div>
             </div>
 
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                     <div class="timeline-date">2024 - present</div>
-                    <div class="timeline-content">
+                    <div class="timeline-content" onclick="toggleImage(this)">
                         <h3>Institute Of Software Engineering</h3>
                         <p>Degree in Computer Science</p>
-                    </div>
-
-                    <div class="timeline-image">
-                        <img src="assets/images/ijse-logo.jpeg" width="350" alt="IJSE Logo">
+                        <div class="timeline-image-container">
+                            <img src="assets/images/ijse-logo.jpeg" width="350" alt="IJSE Logo">
+                        </div>
                     </div>
             </div>
         </div>
@@ -214,13 +213,13 @@
 
     <!-- Projects Section -->
     <section id="projects">
-        <a href="#assignments" class="arrow"><i class="fa-solid fa-angles-down"></i></a>
+<!--        <a href="#assignments" class="arrow"><i class="fa-solid fa-angles-down"></i></a>-->
         <div class="project-box">
             <div class="heading-p">
                 <span>browse my recent</span>
             </div>
             <div class="heading4">
-                <span>My</span> Projects
+                <span>My </span>Projects
             </div>
 
             <div class="project-container">
@@ -259,7 +258,7 @@
 
     <!-- Assignments Section -->
     <section id="assignments">
-        <a href="#gallery" class="arrow"><i class="fa-solid fa-angles-down"></i></a>
+<!--        <a href="#gallery" class="arrow"><i class="fa-solid fa-angles-down"></i></a>-->
         <div class="assign-heading">
             <span>a step towards my goals</span>
         </div>
@@ -340,7 +339,7 @@
 
     <!-- Gallery Section -->
     <section id="gallery">
-        <a href="#gallery" class="arrow"><i class="fa-solid fa-angles-down"></i></a>
+<!--        <a href="#gallery" class="arrow"><i class="fa-solid fa-angles-down"></i></a>-->
         <div class="heading-g">
             <span>throwback memories</span>
         </div>
@@ -415,14 +414,92 @@
 
 <script>
     function hamburg() {
-        const navbar = document.querySelector(".dropdown");
-        navbar.classList.toggle("active");
+        const dropdown = document.querySelector(".dropdown");
+        const hamburgerBtn = document.querySelector(".hamburg");
+        const closeBtn = document.querySelector(".cancel");
+
+        dropdown.classList.add("active");
+        hamburgerBtn.style.display = "none";
+        closeBtn.style.display = "block";
+
+        // Prevent scrolling when menu is open
+        document.body.style.overflow = "hidden";
     }
 
     function cancelDropdown() {
-        const navbar = document.querySelector(".dropdown");
-        navbar.classList.remove("active");
+        const dropdown = document.querySelector(".dropdown");
+        const hamburgerBtn = document.querySelector(".hamburg");
+        const closeBtn = document.querySelector(".cancel");
+
+        dropdown.classList.remove("active");
+        closeBtn.style.display = "none";
+        hamburgerBtn.style.display = "block";
+
+        // Restore scrolling
+        document.body.style.overflow = "auto";
     }
+
+    // Close menu when clicking on links (added functionality)
+    document.querySelectorAll(".dropdown a").forEach(link => {
+        link.addEventListener("click", cancelDropdown);
+    });
+
+    function toggleImage(element) {
+        const imageContainer = element.querySelector('.timeline-image-container');
+        imageContainer.classList.toggle('show');
+
+        // Close other open image containers
+        document.querySelectorAll('.timeline-image-container.show').forEach(container => {
+            if (container !== imageContainer) {
+                container.classList.remove('show');
+            }
+        });
+    }
+
+    // Basic Carousel Navigation
+    document.addEventListener('DOMContentLoaded', function() {
+        const carousel = document.querySelector('.assignments-carousel');
+        const prevBtn = document.querySelector('.previous-button');
+        const nextBtn = document.querySelector('.next-button');
+        const arrow = document.querySelector('.arrow');
+
+        // Simple button navigation
+        if (prevBtn && nextBtn) {
+            prevBtn.addEventListener('click', () => {
+                carousel.scrollBy({ left: -280, behavior: 'smooth' });
+            });
+
+            nextBtn.addEventListener('click', () => {
+                carousel.scrollBy({ left: 280, behavior: 'smooth' });
+            });
+        }
+
+        // Simple arrow click
+        if (arrow) {
+            arrow.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.querySelector(arrow.getAttribute('href'))?.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        }
+
+        // Basic touch swipe (optional)
+        let startX;
+        carousel.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+        });
+
+        carousel.addEventListener('touchend', (e) => {
+            const endX = e.changedTouches[0].clientX;
+            if (startX - endX > 50) { // Swipe left
+                carousel.scrollBy({ left: 280, behavior: 'smooth' });
+            } else if (endX - startX > 50) { // Swipe right
+                carousel.scrollBy({ left: -280, behavior: 'smooth' });
+            }
+        });
+    });
+
 </script>
 
 
