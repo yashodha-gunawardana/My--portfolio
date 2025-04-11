@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
-    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/lib/normalize.css">
     <link rel="stylesheet" href="assets/lib/fontawesome/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
                     <span>YASH</span>ODA
                 </div>
                 <div class="nav-menu">
-                    <a href="#">Home</a>
+                    <a href="#hero">Home</a>
                     <a href="#about">About</a>
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
@@ -32,7 +32,7 @@
             </div>
             <div class="dropdown">
                 <div>
-                    <a href="#">Home</a>
+                    <a href="#hero">Home</a>
                     <a href="#about">About</a>
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
@@ -81,7 +81,7 @@
                 <div class="heading-a">
                     <span>get to know me</span>
                 </div>
-                <h1>About<span>Me</span></h1>
+                <h1>About <span>Me</span></h1>
                 <p>Hello! I'm Yashoda Gunawardhana, a 23-year-old passionate learner currently engaged in
                     higher education. I'm pursuing my studies in Software Engineering at IJSE Institute,
                     where I continuously expand my knowledge and skills in the field of technology.
@@ -352,6 +352,7 @@
             <div class="left-side">
                 <img src="assets/images/image1.jpg" width="200" alt="Gallery Image 1">
                 <img src="assets/images/image2.jpg" width="200" alt="Gallery Image 2">
+                <img src="assets/images/image8.jpeg" width="200" alt="Gallery Image 7">
             </div>
 
             <div class="middle">
@@ -407,6 +408,17 @@
         </div>
     </div>
 
+    <div class="contact-info">
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>yashodagunawardhan15@gmail.com</span>
+        </div>
+        <div class="contact-item phone-center">
+            <i class="fas fa-phone-alt"></i>
+            <span>+94 71 374 8066</span>
+        </div>
+    </div>
+
     <div class="footer-divider"></div>
 
     <p class="copyright"><i class="fa-solid fa-copyright"></i> Yashoda Gunawardhana | 2025 All Rights Reserved.</p>
@@ -443,6 +455,7 @@
     document.querySelectorAll(".dropdown a").forEach(link => {
         link.addEventListener("click", cancelDropdown);
     });
+
 
     function toggleImage(element) {
         const imageContainer = element.querySelector('.timeline-image-container');
