@@ -1412,10 +1412,15 @@ footer {
         margin-top: 50px;
     }
 
-    .main-contain .image img {
+    .image {
+        position: relative;
         width: 450px;
-        border-radius: 50%;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        height: 500px;
+        overflow: hidden;
+        border-radius: 15px;
+        background: linear-gradient(135deg, #00FFCC, #00E5EE);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
     }
 
     .main-contain .content {
@@ -2437,9 +2442,15 @@ footer {
         margin-top: 30px;
     }
 
-    .main-contain .image img {
-        width: 300px;
-        border-radius: 50%;
+    .image {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        border-radius: 15px;
+        background: linear-gradient(135deg, #00FFCC, #00E5EE);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
     }
 
     .main-contain .content {
@@ -3501,11 +3512,15 @@ footer {
         top: 30px;
     }
 
-    .main-contain .image img {
-        width: 250px;
-        border-radius: 50%;
+    .image {
         position: relative;
-        top: 0;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 15px;
+        background: linear-gradient(135deg, #00FFCC, #00E5EE);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
     }
 
     .main-contain .content {
@@ -4551,9 +4566,15 @@ footer {
         top: 0;
     }
 
-    .main-contain .image img {
-        width: 250px;
-        border-radius: 50%;
+    .image {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 15px;
+        background: linear-gradient(135deg, #00FFCC, #00E5EE);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
     }
 
     .main-contain .content {
@@ -5577,9 +5598,15 @@ footer {
         bottom: 30px;
     }
 
-    .main-contain .image img {
-        width: 200px;
-        border-radius: 50%;
+    .image {
+        position: relative;
+        width: 250px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 15px;
+        background: linear-gradient(135deg, #00FFCC, #00E5EE);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
     }
 
     .main-contain .content {
@@ -6602,9 +6629,15 @@ footer {
         bottom: 30px;
     }
 
-    .main-contain .image img {
+    .image {
+        position: relative;
         width: 200px;
-        border-radius: 50%;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 15px;
+        background: linear-gradient(135deg, #00FFCC, #00E5EE);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
     }
 
     .main-contain .content {
