@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -155,8 +156,6 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .main-contain {
@@ -355,8 +354,6 @@ header nav {
     gap: 2rem;
     background: #0e0e0e;
     padding: 100px 100px;
-    position: relative;
-    overflow: hidden;
 }
 
 .arrow {
@@ -502,8 +499,6 @@ header nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    overflow: hidden;
 }
 
 .arrow {
@@ -598,8 +593,6 @@ header nav {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    overflow: hidden;
-    position: relative;
 }
 
 .heading-e span {
@@ -744,8 +737,6 @@ header nav {
     padding: 100px 15px;
     background-color: #0e0e0e;
     text-align: center;
-    position: relative;
-    overflow: hidden;
 }
 
 .project-box {
@@ -1343,15 +1334,10 @@ footer {
         padding: 0 50px;
     }
 
-    .logo {
+    .logo, .logo span {
         font-size: 25px;
         font-weight: 600;
         position: relative;
-    }
-
-    .logo span {
-        font-size: 25px;
-        font-weight: 600;
     }
 
     .nav-menu {
@@ -1383,12 +1369,6 @@ footer {
         width: 100%;
     }
 
-    .nav-menu a:hover {
-    }
-
-    .nav-menu a:active {
-    }
-
     #hero {
         width: 100%;
         height: 100vh;
@@ -1413,7 +1393,6 @@ footer {
     }
 
     .image {
-        position: relative;
         width: 450px;
         height: 500px;
         overflow: hidden;
@@ -1466,7 +1445,6 @@ footer {
         vertical-align: middle;
         animation: typing 3s steps(200, end) infinite;
     }
-
 
     @keyframes typing {
         from {
@@ -1540,7 +1518,6 @@ footer {
         justify-content: space-between;
         gap: 2rem;
         padding: 100px 30px;
-        position: relative;
     }
 
     .heading-a {
@@ -1575,11 +1552,7 @@ footer {
         text-align: left;
     }
 
-    .about-text h1 {
-        font-size: 50px;
-    }
-
-    .about-text h1 span {
+    .about-text h1, .about-text h1 span {
         font-size: 50px;
     }
 
@@ -1619,12 +1592,6 @@ footer {
         width: 100%;
     }
 
-    .link-sec a:hover {
-    }
-
-    .link-sec a:active {
-    }
-
     .buttons {
         margin-top: 20px;
         display: flex;
@@ -1654,7 +1621,6 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 
     .heading2 {
@@ -1850,8 +1816,7 @@ footer {
         min-height: 100vh;
         padding: 100px 15px;
         text-align: center;
-        position: relative;
-        top: 50px;
+        overflow: hidden;
 
     }
 
@@ -2445,7 +2410,7 @@ footer {
     .image {
         position: relative;
         width: 400px;
-        height: 400px;
+        height: 430px;
         overflow: hidden;
         border-radius: 15px;
         background: linear-gradient(135deg, #00FFCC, #00E5EE);
@@ -2882,8 +2847,6 @@ footer {
         min-height: 100vh;
         padding: 100px 30px;
         text-align: center;
-        position: relative;
-        top: 50px;
     }
 
     .project-box {
@@ -3515,7 +3478,7 @@ footer {
     .image {
         position: relative;
         width: 300px;
-        height: 300px;
+        height: 330px;
         overflow: hidden;
         border-radius: 15px;
         background: linear-gradient(135deg, #00FFCC, #00E5EE);
@@ -3952,8 +3915,6 @@ footer {
         min-height: 100vh;
         padding: 100px 15px;
         text-align: center;
-        position: relative;
-        top: 50px;
     }
 
     .project-box {
@@ -4452,7 +4413,7 @@ footer {
 
     header nav {
         width: 100vw;
-        padding: 25px 20px;
+        padding: 20px 20px;
         position: fixed;
         top: 0;
         z-index: 1000;
@@ -4975,8 +4936,6 @@ footer {
         min-height: 100vh;
         padding: 70px 15px;
         text-align: center;
-        position: relative;
-        top: 50px;
     }
 
     .project-box {
@@ -5481,7 +5440,7 @@ footer {
 
     header nav {
         width: 100vw;
-        padding: 25px 10px;
+        padding: 20px 10px;
         position: fixed;
         top: 0;
         z-index: 1000;
@@ -6007,8 +5966,6 @@ footer {
         min-height: 100vh;
         padding: 70px 15px;
         text-align: center;
-        position: relative;
-        top: 50px;
     }
 
     .project-box {
@@ -6512,7 +6469,7 @@ footer {
 
     header nav {
         width: 100vw;
-        padding: 25px 10px;
+        padding: 20px 10px;
         position: fixed;
         top: 0;
         z-index: 1000;
@@ -7033,10 +6990,8 @@ footer {
     #projects {
         width: 100vw;
         min-height: 100vh;
-        padding: 50px 15px;
+        padding: 80px 15px;
         text-align: center;
-        position: relative;
-        top: 50px;
     }
 
     .project-box {
